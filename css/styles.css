@@ -203,15 +203,11 @@ p {
 }
 
 /* Кнопка */
-.button-primary {
+.button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 4px;
-  padding: 10px 32px;
   min-width: 200px;
   border: 1px solid transparent;
-
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -222,13 +218,18 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button--hero-position {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+}
+
+.button:hover,
+.button:focus {
   background-color: var(--hover-color-button);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ОСОБЕННОСТИ */
@@ -453,11 +454,11 @@ p {
   justify-content: space-between;
 }
 
-.footer-main div {
+.footer-main__thumb {
   flex-basis: calc((50% - 45px) / 2);
 }
 
-.footer-main div:last-child {
+.footer-main__thumb:last-child {
   flex-basis: calc(50% - 15px);
 }
 
@@ -467,22 +468,22 @@ p {
 }
 
 /* Область адресов с лого */
-.address-list {
+.address-footer {
   margin-top: 20px;
   font-style: normal;
   color: var(--address-footer-color);
 }
 
-.address-item:not(:last-child) {
+.address-footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-list .map {
+.address-footer__map {
   color: var(--primary-white-color);
 }
 
-.address-list .map:hover,
-.address-list .map:focus {
+.address-footer__map:hover,
+.address-footer__map:focus {
   color: var(--accent-color);
 }
 
@@ -497,11 +498,11 @@ p {
   color: var(--primary-white-color);
 }
 
-.footer-center .icon {
+.socials-list__icon {
   fill: var(--primary-white-color);
 }
 
-.social-icons-link {
+.socials-list__link {
   background-color: #ffffff1a;
 }
 
@@ -509,9 +510,10 @@ p {
 .footer-form {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.footer-mail {
+.footer-form__mail {
   padding: 15px 16px;
   font-size: 16px;
   line-height: 1.25;
@@ -523,26 +525,28 @@ p {
   color: var(--address-footer-color);
 }
 
-.footer-mail::placeholder {
+.footer-form__mail::placeholder {
   color: var(--address-footer-color);
 }
 
-.footer-button {
+.footer-form__button {
   position: relative;
 }
 
-.footer-right .button-primary {
+.button--footer-position {
+  padding-top: 10px;
   padding-right: 62px;
+  padding-bottom: 10px;
+  padding-left: 29px;
   margin-right: 0;
 }
 
-.footer-right .button-primary:hover,
-.footer-right .button-primary:focus {
+.button--footer-position:hover,
+.button--footer-position:focus {
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.footer-form .icon {
+.footer-form__icon {
   position: absolute;
   top: 13px;
   right: 28px;
@@ -555,7 +559,7 @@ p {
 /* Прячем заголовок уровня h1, как Julia Kleimenova показывала на занятии */
 
 /* Фильтр */
-.button-secondary {
+.button-portfolio {
   display: block;
   border-radius: 4px;
   padding: 6px 22px;
@@ -572,8 +576,8 @@ p {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-secondary:hover,
-.button-secondary:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -586,31 +590,31 @@ p {
   margin-bottom: 50px;
 }
 
-.button-item:not(:last-child) {
+.button-set__item:not(:last-child) {
   margin-right: 8px;
 }
 
 /* Работы */
-.card-set {
+.card {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.card-item {
+.card__item {
   flex-basis: calc((100% - 30px * 3) / 3);
   margin-left: 30px;
   margin-top: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-item:hover,
-.card-item:focus {
+.card__item:hover,
+.card__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.card-content {
+.card__content {
   padding-top: 20px;
   padding-right: 24px;
   padding-left: 24px;
@@ -620,7 +624,7 @@ p {
   border-left: 1px solid var(--border-line-card);
 }
 
-.card-title {
+.card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -628,19 +632,19 @@ p {
   color: var(--title-text-color);
 }
 
-.card-text {
+.card__text {
   margin: 4px 0px 0px 0px;
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
 }
 
-.card-img {
+.card__img {
   position: relative;
   overflow: hidden;
 }
 
-.card-overlay {
+.card__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -659,8 +663,8 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-item:hover .card-overlay,
-.card-item:focus .card-overlay {
+.card__item:hover .card__overlay,
+.card__item:focus .card__overlay {
   transform: translateY(0%);
 }
 
@@ -705,15 +709,15 @@ p {
   cursor: pointer;
 }
 
-.button-close .icon {
+.button-close__icon {
   width: 18px;
   height: 18px;
   fill: var(--primary-black-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close:focus .icon,
-.button-close:hover .icon {
+.button-close:focus .button-close__icon,
+.button-close:hover .button-close__icon {
   fill: var(--accent-color);
 }
 
@@ -727,8 +731,7 @@ p {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
-.modal h2 {
-  /* margin-top: 40px; */
+.modal__title {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 20px;
@@ -738,14 +741,14 @@ p {
 }
 
 /* Form */
-.form-field {
+.form__field {
   position: relative;
   display: block;
   margin-bottom: 28px;
   cursor: pointer;
 }
 
-.form-label {
+.form__label {
   position: absolute;
   top: -18px;
   left: 0;
@@ -754,7 +757,7 @@ p {
   letter-spacing: 0.01em;
 }
 
-.form-input {
+.form__input {
   padding-left: 42px;
   width: 100%;
   height: 40px;
@@ -764,7 +767,7 @@ p {
   cursor: pointer;
 }
 
-.form-field .icon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -774,22 +777,33 @@ p {
   transform: translateY(-50%);
 }
 
-.form-field:focus-within > .icon {
+.form__field:focus-within > .form__icon {
   fill: var(--accent-color);
 }
 
-.form-field:focus-within > .form-input {
+.form__field:focus-within > .form__input {
   outline: 1px solid rgba(255, 255, 255, 0.1);
   border: 1px solid var(--accent-color);
 }
 
 /* Textarea */
-.textarea {
+.form__textarea {
+  position: relative;
+  display: block;
   height: 120px;
   margin-bottom: 20px;
 }
 
-.form-textarea {
+.form__textarea-label {
+  position: absolute;
+  top: -18px;
+  left: 0;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.form__textarea-text {
   padding: 12px 16px;
   resize: none;
   width: 100%;
@@ -799,27 +813,27 @@ p {
   cursor: pointer;
 }
 
-.form-textarea::placeholder {
+.form__textarea-text::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: var(--modal-form-placeholder);
 }
 
-.textarea:focus-within > .form-textarea {
+.form__textarea:focus-within > .form__textarea-text {
   outline: 1px solid rgba(255, 255, 255, 0.1);
   border: 1px solid var(--accent-color);
 }
 
 /* Checkbox */
-.checkbox-label {
+.form__checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.checkbox-icon {
+.form__checkbox-icon {
   display: inline-block;
   margin-right: 7px;
   width: 16px;
@@ -829,7 +843,7 @@ p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked + .checkbox-icon {
+.form__checkbox-input:checked + .form__checkbox-icon {
   background-color: var(--accent-color);
   background-image: url('../images/icons/icon-check.svg');
   background-size: contain;
@@ -837,15 +851,17 @@ p {
   border-color: var(--accent-color);
 }
 
-.checkbox:focus + .checkbox-icon {
+.form__checkbox-input:focus + .form__checkbox-icon {
   border: 1px solid var(--accent-color);
 }
 
-.checkbox-text a {
+.form__checkbox-link {
   text-decoration: underline;
   color: var(--accent-color);
 }
 
-.form .button-primary {
+.button--modal-position {
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 55px;
 }
