@@ -281,6 +281,8 @@ summary {
   --social-link-color: #afb1b8;
   --modal-form-border: #21212133;
   --modal-form-placeholder: #75757580;
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
 }
 
 /* raleway-regular - latin */
@@ -288,9 +290,9 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.eot");
+  src: url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.woff2") format("woff2"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.woff") format("woff"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.ttf") format("truetype"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-regular.svg#Raleway") format("svg");
+  src: local(""), url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.woff") format("woff"), url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.ttf") format("truetype"), url("../fonts/raleway-v19-latin/raleway-v19-latin-regular.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
 
@@ -299,9 +301,9 @@ summary {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.eot");
+  src: url("../fonts/raleway-v19-latin/raleway-v19-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.woff") format("woff"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.ttf") format("truetype"), url("../../fonts/raleway-v19-latin/raleway-v19-latin-700.svg#Raleway") format("svg");
+  src: local(""), url("../fonts/raleway-v19-latin/raleway-v19-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v19-latin/raleway-v19-latin-700.woff2") format("woff2"), url("../fonts/raleway-v19-latin/raleway-v19-latin-700.woff") format("woff"), url("../fonts/raleway-v19-latin/raleway-v19-latin-700.ttf") format("truetype"), url("../fonts/raleway-v19-latin/raleway-v19-latin-700.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
 
@@ -310,9 +312,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.eot");
+  src: url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.woff") format("woff"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.ttf") format("truetype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -321,9 +323,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.eot");
+  src: url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.woff") format("woff"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.ttf") format("truetype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-500.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -332,9 +334,9 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.eot");
+  src: url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.woff") format("woff"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.ttf") format("truetype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.woff") format("woff"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-700.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -343,15 +345,15 @@ summary {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.eot");
+  src: url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.woff") format("woff"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.ttf") format("truetype"), url("../../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.svg#Roboto") format("svg");
+  src: local(""), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto-v27-latin_cyrillic/roboto-v27-latin_cyrillic-900.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
 /* Стили для всего сайта */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -681,7 +683,7 @@ p {
 
 .logo {
   margin-right: 93px;
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -999,19 +1001,19 @@ p {
 }
 
 .features__item:nth-child(1)::before {
-  background-image: url("../../images/icons/antenna.svg");
+  background-image: url("../images/icons/antenna.svg");
 }
 
 .features__item:nth-child(2)::before {
-  background-image: url("../../images/icons/clock.svg");
+  background-image: url("../images/icons/clock.svg");
 }
 
 .features__item:nth-child(3)::before {
-  background-image: url("../../images/icons/diagram.svg");
+  background-image: url("../images/icons/diagram.svg");
 }
 
 .features__item:nth-child(4)::before {
-  background-image: url("../../images/icons/astronaut.svg");
+  background-image: url("../images/icons/astronaut.svg");
 }
 
 .features__title {
