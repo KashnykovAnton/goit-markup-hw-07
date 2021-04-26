@@ -5,23 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header">
       <div class="container">
-        <div class="nav-main">
-          <nav class="nav">
+        <div class="header__nav-main">
+          <nav class="header__nav">
             <a href="./index.html" class="link logo"> Web<span class="logo--black">Studio</span> </a>
             <ul class="nav-list">
               <li class="nav-list__item">
@@ -235,7 +226,7 @@
     </main>
 
     <!-- Футер -->
-    <footer class="footer">
+    <footer class="section section--footer">
       <div class="container">
         <div class="footer-main">
           <div class="footer-main__thumb">
@@ -253,32 +244,32 @@
             </ul>
           </div>
           <div class="footer-main__thumb">
-            <b class="caption">присоединяйтесь</b>
+            <b class="caption-title">присоединяйтесь</b>
             <ul class="socials-list">
               <li class="socials-list__item">
                 <a href="" class="socials-list__link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socials-list__icon">
+                  <svg class="socials-list__icon socials-list__icon--white">
                     <use href="./images/icons/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials-list__item">
                 <a href="" class="socials-list__link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socials-list__icon">
+                  <svg class="socials-list__icon socials-list__icon--white">
                     <use href="./images/icons/sprite.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials-list__item">
                 <a href="" class="socials-list__link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socials-list__icon">
+                  <svg class="socials-list__icon socials-list__icon--white">
                     <use href="./images/icons/sprite.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials-list__item">
                 <a href="" class="socials-list__link" target="_blank" rel="noopener noreferrer">
-                  <svg class="socials-list__icon">
+                  <svg class="socials-list__icon socials-list__icon--white">
                     <use href="./images/icons/sprite.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -286,7 +277,7 @@
             </ul>
           </div>
           <div class="footer-main__thumb">
-            <b class="caption">подпишитесь на рассылку</b>
+            <b class="caption-title">подпишитесь на рассылку</b>
             <form class="footer-form">
               <input type="email" class="footer-form__mail" name="user-mail" placeholder="E-mail" />
               <div class="footer-form__button">
